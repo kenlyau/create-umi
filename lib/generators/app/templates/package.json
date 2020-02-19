@@ -19,8 +19,21 @@
 <% if (reactFeatures.includes('antd')) { -%>
     "antd": "^3.19.5",
 <% } -%>
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+<% if (reactFeatures.includes('echarts')) { -%>
+  "echarts": "^4.6.0",
+<% } -%>
+<% if (reactFeatures.includes('@antv/g2')) { -%>
+  "@antv/g2": "^3.5.12",
+<% } -%>
+<% if (reactFeatures.includes('@antv/g6')) { -%>
+  "@antv/g6": "^3.3.5",
+<% } -%>
+<% if (reactFeatures.includes('@antv/g6')) { -%>
+  "@antv/g6": "^5.15.0",
+<% } -%>
+
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
 <% if (isTypeScript) { -%>

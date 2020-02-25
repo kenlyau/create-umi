@@ -28,8 +28,8 @@
 <% if (reactFeatures.includes('@antv/g6')) { -%>
   "@antv/g6": "^3.3.5",
 <% } -%>
-<% if (reactFeatures.includes('@antv/g6')) { -%>
-  "@antv/g6": "^5.15.0",
+<% if (reactFeatures.includes('d3')) { -%>
+  "d3": "^5.15.0",
 <% } -%>
 
     "react": "^16.12.0",
